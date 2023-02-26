@@ -18,3 +18,6 @@ git restore .
 
 git log
 git log --pretty=format:"%h - %an, %ar - %s"
+
+git branch
+git checkout
