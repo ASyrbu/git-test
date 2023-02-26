@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.navbar-list {
+  font-family: "Roboto Slab", sans-serif;
+  list-style: none;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navbar-link {
+  padding: 20px;
+  position: relative;
+  background-color: azure;
+  display: block;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+
+.navbar-link:hover,
+.navbar-link:active {
+  position: relative;
+  color: red;
+  background-color: burlywood;
+  transform: scale(1.2) translateY(10px);
+}
+
+.bg-wallpaper {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: darkkhaki;
+  background-size: cover, cover;
+  background-position: 98% 1%, center;
+  background-repeat: no-repeat;
+}
+
+.main {
+  padding-top: 20px;
+  background-color: lightyellow;
+  padding-bottom: 100px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+table {
+  text-align: center;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  width: 33.33%;
+  height: 50px;
+}
+
+.h-200 {
+  height: 200px;
+}
+
+caption {
+  padding: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-28 {
+  width: 28%;
+}
+
+.w-80 {
+  width: 80%;
+}
